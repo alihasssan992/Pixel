@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXELS STUDIO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header -->
+     <header class="header">
+    <div class="container">
+      <div class="logo">PIXELS<span>〣</span></div>
+      <nav class="nav" id="nav-menu">
+        
+        <a href="#About">About</a>
+        <a href="#Serv">Services</a>
+         <a href="#Loc">Location</a>
+        <a href="#Cont">Contact</a>
+
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </div>
+     <div class="small-line"></div>
+  </header>
+  <!-- header end -->
+
+  <!-- Bannr -->
+   <section class="about-section" id="About">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="https://t4.ftcdn.net/jpg/05/88/46/33/360_F_588463375_3nrF7MBOLUUuvTkcpSY9Pfac6GqmoLnM.jpg" alt="Photographer Studio">
+    </div>
+    <div class="about-content">
+      <h2>About Our Studio</h2>
+      <p>
+        Welcome to our photography studio where every picture tells a story. We specialize in portraits, events, and commercial shoots. Our goal is to capture the perfect moment through a creative lens and professional experience.
+      </p>
+      <p>
+        With state-of-the-art equipment and a passion for visual storytelling, we turn ordinary moments into lifelong memories. Let's make magic together!
+      </p>
+      <a href="#Cont" class="btn-about">Contact Us</a>
+    </div>
+  </div>
+</section>
+<!-- banner end  -->
+
+<!-- services -->
+<section class="services-section" id="Serv">
+     <div class="small-line"></div>
+  <h2>Our Services</h2>
+  <div class="services-container">
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/27868435/pexels-photo-27868435/free-photo-of-a-group-of-people-taking-pictures-with-cameras.jpeg" alt="Service 1">
+      <h3>Photography</h3>
+    </div>
+    <div class="service-card">
+      <img src="https://www.format.com/wp-content/uploads/Gimp-photo-editing-software-UI.png" alt="Service 2">
+      <h3>Photo Editing</h3>
+    </div>
+    <div class="service-card">
+      <img src="https://images.squarespace-cdn.com/content/v1/5f9306f63ef8480c49f3993c/1604102932790-7WKH36SCCKBP4E0CT42I/_DSC1225-1+copy.jpeg" alt="Service 3">
+      <h3>Event Coverage</h3>
+    </div>
+    <div class="service-card">
+      <img src="https://digitalattic.com/wp-content/uploads/2023/05/Digital-Attic-Studio-Photography-Studio-Rental-After.jpg" alt="Service 4">
+      <h3>Studio Rental</h3>
+    </div>
+  </div>
+</section>
+<!-- service end -->
+
+<!-- loction -->
+ 
+<section class="centered-section" id="Loc">
+    <div class="small-line"></div>
+  <h2>Our Locations</h2>
+  <div class="image-wrapper">
+    <img src="https://www.travel-culture.com/images/sahiwal-punjab-map.jpg" alt="Sample Image">
+  </div>
+</section>
+
+<!-- locatin end -->
+
+
+<!-- conatct -->
+<section class="contact-section" id="Cont">
+    
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <div class="input-group">
+          <input type="text" required>
+          <label>Full Name</label>
+        </div>
+        <div class="input-group">
+          <input type="email" required>
+          <label>Email Address</label>
+        </div>
+        <div class="input-group">
+          <input type="text" required>
+          <label>Subject</label>
+        </div>
+        <div class="input-group">
+          <textarea required></textarea>
+          <label>Your Message</label>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- scripts (all) -->
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const navMenu = document.getElementById("nav-menu");
+    toggle.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
